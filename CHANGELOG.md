@@ -1,4 +1,4 @@
-# Modular-plugins changelog
+# modular-plugin-epics changelog
 
 ## Versions
 

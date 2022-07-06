@@ -1,6 +1,6 @@
 {
   "name": "modular-plugin-epics",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Use redux-observable epics inside modular-engine system",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
