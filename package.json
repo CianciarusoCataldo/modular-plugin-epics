@@ -1,7 +1,9 @@
 {
   "name": "modular-plugin-epics",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Use redux-observable epics inside modular-engine system",
+  "author": "Cataldo Cianciaruso",
+  "license": "MIT",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "typings": "dist/index.d.ts",
@@ -9,20 +11,14 @@
     "dist",
     "config/rollup.build.config.js"
   ],
-  "scripts": {
-    "build": "rollup -c ./config/rollup.build.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "homepage": "https://github.com/CianciarusoCataldo/modular-plugin-epics#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CianciarusoCataldo/modular-plugin-epics.git"
   },
-  "author": "Cataldo Cianciaruso",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/CianciarusoCataldo/modular-plugin-epics/issues"
   },
-  "homepage": "https://github.com/CianciarusoCataldo/modular-plugin-epics#readme",
   "peerDependencies": {
     "modular-engine-types": "^0.2.2",
     "redux-observable": "^2.0.0"
@@ -46,5 +42,10 @@
     "rollup-plugin-typescript2": "^0.31.2",
     "ts-jest": "^27.1.2",
     "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "build": "rollup -c ./config/rollup.build.config.js",
+    "check-types": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
