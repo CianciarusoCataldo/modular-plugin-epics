@@ -15,19 +15,6 @@ Use [redux-observable](https://redux-observable.js.org/) epics with [modular-eng
 
 ---
 
-## Summary
-
-- [Getting started](#getting-started)
-  - [Installation](#installation)
-- [Integration with other plugins](#integration-with-other-plugins)
-- [Included libraries](#included-libraries)
-- [Authors](#authors)
-- [License](#license)
-
-<br>
-
----
-
 ## Getting started
 
 ### Installation

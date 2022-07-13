@@ -1,6 +1,6 @@
 {
   "name": "modular-plugin-epics",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Use redux-observable epics inside modular-engine system",
   "author": "Cataldo Cianciaruso",
   "license": "MIT",

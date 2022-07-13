@@ -1,5 +1,5 @@
 /**
- * @file modular-plugin-epics init file
+ * @file {@link https://github.com/CianciarusoCataldo/modular-plugin-epics modular-plugin-epics} init file
  *
  * @see https://github.com/CianciarusoCataldo/modular-plugin-epics
  *
