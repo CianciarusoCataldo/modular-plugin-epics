@@ -65,8 +65,8 @@ const epicsPlugin: EpicsPlugin = () => {
 
       return { ...input, epics: input.epics || [] };
     },
-    postInit: (config, enabledPlugins) => {
-      epicMiddleware.run(combineEpics(config.epics));
+    postInit: (config, store) => {
+      epicMiddleware.run(combineEpics(...config.epics));
     },
   };
 };
